@@ -1,4 +1,4 @@
-package org.dragos;
+package org.stancu;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -12,11 +12,9 @@ import java.io.IOException;
 public class Main extends Application {
 
 
-    private static Scene scene;
-
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("primary"));
+        Scene scene = new Scene(loadFXML("primary"));
         stage.setScene(scene);
         stage.initStyle(StageStyle.TRANSPARENT);
         stage.show();

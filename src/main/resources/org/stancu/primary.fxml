@@ -10,7 +10,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<HBox xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dragos.controller.PrimaryController">
+<HBox xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.stancu.controller.PrimaryController">
     <Pane prefHeight="624.0" prefWidth="217.0">
         <Label fx:id="time" alignment="CENTER" layoutX="3.0" layoutY="183.0" prefHeight="63.0" prefWidth="210.0" text="                 " textAlignment="CENTER">
             <font>

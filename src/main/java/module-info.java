@@ -2,6 +2,6 @@ module org.example {
     requires javafx.controls;
     requires javafx.fxml;
 
-    opens org.dragos.controller to javafx.fxml;
-    exports org.dragos;
+    opens org.stancu.controller to javafx.fxml;
+    exports org.stancu;
 }
